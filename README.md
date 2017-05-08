@@ -29,12 +29,12 @@ As a webdeveloper I spend a lot of time exploring the web for info, codes, scrip
 
 #### <a name="sites"></a>Sites & applications
 - Github
+- - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - Google
 
 #### <a name="info"></a>Info & Code links
-
-- Javascript: [jQuery](http://jquery.com), [Mootools](http://mootools.net), [More Javascript Libraries](http://javascriptlibraries.com/)
-
 - HTML5: 
 [HTML5 W3C schools](http://www.w3schools.com/html5), [Can i use](http://caniuse.com), [Browser detect](http://detectmybrowser.com), [Dive into HTML5](http://www.diveintohtml5.org), [HTML5 on Quirksmde](http://www.quirksmode.org/dom/html5.html), [HTML5 Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills), [HTML5 Patterns](http://html5pattern.com),[HTML5 Boilerplate](http://html5boilerplate.com)
+
+- Javascript: [jQuery](http://jquery.com), [Mootools](http://mootools.net), [More Javascript Libraries](http://javascriptlibraries.com/)
 
