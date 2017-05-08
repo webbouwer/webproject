@@ -4,7 +4,7 @@ A collection of most used codes, plugins and software used to build the web
 WORK IN PROGRESS
 
 ## Introduction
-As a webdeveloper I spend a lot of time exploring the web for info, codes, scriptlets, opensource plugins and software to reuse or hack into my webprojects. This repository is an effort to reduce my time in search and explore mode by keeping track of the most used stuff available on the web. If you would like to add info the best way is to make a commit.
+As a webdeveloper you spend a lot of time exploring the web for info, codes, scriptlets, opensource plugins and software to reuse or hack into webprojects. This repository is an effort to reduce time in search and explore mode by keeping track of the most used stuff. If you would like to add info the best way is to make a commit.
 
 ### Sections
 - [HTML5, CSS and Javascript](#html5) 
@@ -18,9 +18,12 @@ As a webdeveloper I spend a lot of time exploring the web for info, codes, scrip
 
 #### <a name="html5"></a>HTML5, CSS and Javascript
 - HTML5
+- Javacript Class
+- Javacript Isotope
 
 #### <a name="cms"></a>Open source CMS
-- Wordpress
+- Wordpress Most Used Plugins
+- Wordpress Theme building
 
 #### <a name="network"></a>Network & Social applications
 - Facebook
