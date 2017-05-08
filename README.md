@@ -28,8 +28,7 @@ As a webdeveloper I spend a lot of time exploring the web for info, codes, scrip
 - Linkedin
 
 #### <a name="sites"></a>Sites & applications
-- Github
-- - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- Github - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - Google
 
 #### <a name="info"></a>Info & Code links
