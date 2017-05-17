@@ -1,5 +1,5 @@
 # webproject
-A collection of most used codes, plugins and software used by me to build the web
+A collection of most used codes, plugins and software to build the web
 
 ## Introduction
 As a webdeveloper I spend a lot of time exploring the web for info, codes, scriptlets, opensource plugins, services and software to re-use or hack into webprojects or make my web developer life a bit less complicated. This repository is my effort to reduce time in search and explore mode by keeping track of most of the most used stuff :) 
