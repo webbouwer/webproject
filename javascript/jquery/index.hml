@@ -1,0 +1,49 @@
+<html>
+
+  <head>
+  
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Wepproject JQuery basics">
+  	<meta name="author" content="Carl Müller">
+  	<meta name="keywords" content="Wepproject, JQuery, basics, HTML, template, html template, minimal, minimal html">
+    
+    <title>Wepproject JQuery basics</title>
+    
+    <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+        
+  </head>
+
+  <body>
+
+    <div id="titlebar">
+      
+      <h1>JQuery basics</h1>
+			<h2>JQuery source lib plugin load example</h2>
+   
+    </div>
+    
+    <div id="menubar">
+    
+      <ul>
+        <li>
+          <a href="#" title="Link 1 titel">link 1</a>
+        </li>
+       
+      </ul>
+      
+    </div>
+    
+    <div id="contentbar">
+      
+      <p>
+        loading..
+      </p>
+      
+    </div>
+    
+  </body>
+  
+</html>
