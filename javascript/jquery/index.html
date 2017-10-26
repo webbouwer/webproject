@@ -11,11 +11,12 @@
 			  src="https://code.jquery.com/jquery-3.2.1.min.js"
 			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 			  crossorigin="anonymous"></script>
+
+
 		<script>
 
-
-		// Basic js function with Ajax request and Callback (JSON specific)
-		function get_wordpress_posts( url , callback ){
+		// js function with Ajax request and Callback (JSON specific)
+		function get_json( url , callback ){
 
 			$.ajax({
 				url: url,
@@ -32,14 +33,14 @@
 
 		}
 
-		// Basic JQuery onready function
+		// JQuery onready function
 		$(document).ready( function(){
 
-			var url = 'http://webdesigndenhaag.net/lab/wp-json/wp/v2/posts'; // some wordpress posts
+			var url = 'http://webdesigndenhaag.net/lab/wp-json/wp/v2/posts'; // some wordpress posts in JSON
 
 			console.log('loading..');
 
-			get_wordpress_posts( url , function( data ){
+			get_json( url , function( data ){
 
 				console.log(data);
 
@@ -50,7 +51,9 @@
 					$.each(data, function(i, item) {
 						console.log(this.title.rendered);
 						console.log(this.content.rendered);
-						$("#contentbar").append("<p>"+this.title.rendered+"</p>");
+						$("#contentbar").append("<div class=\"wp-post\"><h3><a href=\""+this.link+"\" target=\"_blank\">"+this.title.rendered+"</a></h3><small>"+this.date+"</small><div class=\"post-content\">"+this.excerpt.rendered+"<a href=\""+this.link+"\" target=\"_blank\">..></a></div></div>");
+
+
 					});
 
 
@@ -64,13 +67,28 @@
 
 		</script>
 
+		<style>
+		body
+		{
+		max-width: 780px;
+		margin:0px auto;
+		background-color:white;
+		color:black;
+		}
+		.wp-post img
+		{
+		max-width:280px;
+		height: auto;
+		}
+		</style>
+
 	</head>
 	<body>
 
 		<div id="titlebar">
 
 		  <h1>JQuery basics</h1>
-		  <h2>JQuery CDN lib v3.2.1.min load WP-API example</h2>
+		  <h2>JQuery CDN lib v3.2.1.min load for WP-API JSON XMLRequest</h2>
 
 		</div>
 
