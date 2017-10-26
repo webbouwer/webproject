@@ -1,49 +1,95 @@
 <html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="description" content="Wepproject JQuery basics">
+		<meta name="author" content="Carl Müller">
+		<meta name="keywords" content="Wepproject, JQuery, basics, HTML, template, html template, minimal, minimal html">
 
-  <head>
+		<title>Wepproject JQuery basics</title>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="description" content="Wepproject JQuery basics">
-  	<meta name="author" content="Carl Müller">
-  	<meta name="keywords" content="Wepproject, JQuery, basics, HTML, template, html template, minimal, minimal html">
-
-    <title>Wepproject JQuery basics</title>
-
-    <script
+		<script
 			  src="https://code.jquery.com/jquery-3.2.1.min.js"
 			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 			  crossorigin="anonymous"></script>
+		<script>
 
-  </head>
 
-  <body>
+		// Basic js function with Ajax request and Callback (JSON specific)
+		function get_wordpress_posts( url , callback ){
 
-    <div id="titlebar">
+			$.ajax({
+				url: url,
+				dataType: 'json',
+				cache : false,
+				sync: false,
+				success: function(json) {
 
-      <h1>JQuery basics</h1>
-			<h2>JQuery source lib plugin load example</h2>
+					callback( json ); // run callback
 
-    </div>
+				}
+			});
 
-    <div id="menubar">
 
-      <ul>
-        <li>
-          <a href="#" title="Link 1 titel">link 1</a>
-        </li>
+		}
 
-      </ul>
+		// Basic JQuery onready function
+		$(document).ready( function(){
 
-    </div>
+			var url = 'http://webdesigndenhaag.net/lab/wp-json/wp/v2/posts'; // some wordpress posts
 
-    <div id="contentbar">
+			console.log('loading..');
 
-      <p>
-        loading..
-      </p>
+			get_wordpress_posts( url , function( data ){
 
-    </div>
+				console.log(data);
 
-  </body>
+				if( data.length > 1 ){
+
+					$('#contentbar').html('');
+
+					$.each(data, function(i, item) {
+						console.log(this.title.rendered);
+						console.log(this.content.rendered);
+						$("#contentbar").append("<p>"+this.title.rendered+"</p>");
+					});
+
+
+
+				}
+
+			});
+
+
+		});
+
+		</script>
+
+	</head>
+	<body>
+
+		<div id="titlebar">
+
+		  <h1>JQuery basics</h1>
+		  <h2>JQuery CDN lib v3.2.1.min load WP-API example</h2>
+
+		</div>
+
+		<div id="contentbar">
+
+		  <p>
+			loading..
+		  </p>
+
+		</div>
+
+		<div id="footerbar">
+			<p>
+				<b>
+					Thank you for your visit!
+				</b>
+			</p>
+		</div>
+
+	</body>
 
 </html>
