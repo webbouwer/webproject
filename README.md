@@ -2,10 +2,10 @@
 A collection of most used codes, plugins and software to build the web
 
 ## Introduction
-As a webdeveloper I spend a lot of time exploring the web for info, codes, scriptlets, opensource plugins, services and software to re-use or hack into webprojects or make my web developer life a bit less complicated. This repository is my effort to reduce time in search and explore mode by keeping track of most of the most used stuff :) 
+As a webdeveloper I spend a lot of time exploring the web for info, code, services and software to re-use or hack into webprojects and make my developer life a bit less complicated. This repository is my effort to reduce time in search and explore mode :) 
 
 ## Contact & Contribution
-If you have questions or suggestions please first take a look at [the wiki pages](https://github.com/oddsized/webproject/wiki) or visit the [repository management page](https://github.com/oddsized/webproject/projects/1). Then if you like to contribute data or contact me I prefer you [file an issue](https://github.com/oddsized/webproject/issues) or if really nessecary you can send an email to oddsized@gmail.com. When I think your contribution has value I will first add it to the project page and in time find a place for it in the repository files or wiki pages.
+If you have questions or suggestions please take a look at [the wiki pages](https://github.com/oddsized/webproject/wiki) or visit the [repository management page](https://github.com/oddsized/webproject/projects/1). If you like to contribute data or contact me you can [file an issue](https://github.com/oddsized/webproject/issues) or send an email to oddsized@gmail.com.
 
 ## Directions
 * Content overview and links at [the wiki pages](https://github.com/oddsized/webproject/wiki) 
