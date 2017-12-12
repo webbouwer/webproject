@@ -29,6 +29,7 @@ Some plugins in this list are only named, not linked, for a specific reasons; Th
 * [Media](#media): Media, files and video tools - see also [Gallery](#gallery) and [Slider](#slider)
 * [Membership](#link): User membership tools and functions
 * [Navigation](#navigation): Site navigation tools and function extensions
+* [Optimalize](#optimalize): Optimalisation & Speed
 * [Page](#page): Page tools and function extensions - see also [Theme](#theme)
 * [Payment](#payment): Payment and donate tools and functions
 * [Popup](#popup): Popup window/box tools and functions
@@ -200,6 +201,9 @@ Some plugins in this list are only named, not linked, for a specific reasons; Th
 
 ## <a name="navigation"></a>Navigation
 * https://wordpress.org/plugins/breadcrumb-navxt/
+
+## <a name="optimalize"></a>Optimalize
+* [Autoptimize](https://wordpress.org/plugins/autoptimize/)
 
 ## <a name="page"></a>Page
 * [Visual composer by wp backery] (https://vc.wpbakery.com/)
