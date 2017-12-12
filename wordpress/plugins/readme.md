@@ -170,7 +170,7 @@ Some plugins in this list are only named, not linked, for a specific reasons; Th
 * https://wordpress.org/plugins/post-list-featured-image/
 
 ## <a name="javascript"></a>Using Javascript with Wordpress
-* [oh-add-script-header-footer](https://nl.wordpress.org/plugins/oh-add-script-header-footer)
+* [SOGO-script-header-footer](https://nl.wordpress.org/plugins/oh-add-script-header-footer)
 
 ## <a name="job"></a>Jobboard and Vacancies 
 * https://wordpress.org/plugins/wp-job-manager/
@@ -219,9 +219,13 @@ Some plugins in this list are only named, not linked, for a specific reasons; Th
 * [popup builder](https://wordpress.org/plugins/popup-builder/)
 
 ## <a name="security"></a>Security
-* better-wp-security
-* limit login attempts
-* Rename wp-login.php
+* https://wordpress.org/plugins/wp-cerber/
+* https://wordpress.org/plugins/wordfence/
+* [iThemesSecurity-formerly better-wp-security](https://wordpress.org/plugins/better-wp-security/)
+* [really simple ssl](https://wordpress.org/plugins/really-simple-ssl/)
+* [one-click-ssl](https://wordpress.org/plugins/one-click-ssl/)
+* [limit login attempts reloaded](https://wordpress.org/plugins/limit-login-attempts-reloaded/) - core enhanced
+* [limit login attempts](https://wordpress.org/plugins/miniorange-limit-login-attempts/) - original wp core
 
 ## <a name="session"></a>Session
 * https://wordpress.org/plugins/wp-native-php-sessions/
