@@ -1,0 +1,174 @@
+/* main.css */
+
+/*
+ * css custom properties
+ */
+
+/* small = default layout */
+:root
+{
+
+	--mainbgcolor: #ffffff;
+	--maintextcolor: #232323;
+
+	--barbgcolor: #cc0000;
+	--bartextcolor: #ffffff;
+
+
+
+	--boxheight: 48px;
+
+	--sidebar1: block;
+	--sidebar1pos: none;
+	--sidebar1width: 100%;
+	--sidebar1minheight: 48px;
+
+	--sidebar2: block;
+	--sidebar2pos: none;
+	--sidebar2width: 100%;
+	--sidebar2minheight: 48px;
+
+	--maincontentpos: none;
+	--maincontentwidth:100%;
+	--maincontentminheight: calc( 100% - ( var(--boxheight) * 2 + var(--sidebar1minheight) + var(--sidebar2minheight) ) );
+}
+
+
+/* medium screen layout */
+@media screen and (min-width: 580px) {
+:root
+{
+	--boxheight: 90px;
+
+	--sidebar1: block;
+	--sidebar1pos: left;
+	--sidebar1width: 20%;
+	--sidebar1minheight: calc( 100% - var(--boxheight) * 2 );
+
+	--sidebar2: block;
+	--sidebar2pos: none;
+	--sidebar2width: 100%;
+	--sidebar2minheight: 120px;
+
+	--maincontentpos: left;
+	--maincontentwidth:80%;
+	--maincontentminheight: calc( 100% - (var(--boxheight) * 2 + var(--sidebar2minheight) ) );
+
+}
+
+	#contentsidebar2:before
+	{
+	content: '';
+    display: block;
+    clear: both;
+	}
+
+}
+
+/* large screen layout */
+@media screen and (min-width: 1280px) {
+:root
+{
+	--boxheight: 120px;
+
+	--sidebar1: block;
+	--sidebar1pos: left;
+	--sidebar1width: 12%;
+	--sidebar1minheight: calc( 100% - var(--boxheight) * 2 );
+
+	--sidebar2: block;
+	--sidebar2pos: right;
+	--sidebar2width: 34%;
+	--sidebar2minheight: calc( 100% - var(--boxheight) * 2 );
+
+	--maincontentpos: left;
+	--maincontentwidth:54%;
+	--maincontentminheight: calc( 100% - var(--boxheight) * 2 );
+
+}
+}
+
+
+/*
+ * css global property assignment
+ */
+
+html
+{
+width:100%;
+height:100%;
+}
+body
+{
+margin:0;
+padding:0;
+width:100%;
+height:100%;
+background-color:var(--barbgcolor);
+color:var(--bartextcolor);
+}
+
+#topbar
+{
+}
+#contentsidebar1
+{
+}
+#contentmainbar
+{
+background-color:var(--mainbgcolor);
+color:var(--maintextcolor);
+}
+#contentsidebar2
+{
+}
+#bottombar
+{
+display:block;
+clear:both;
+width:100%;
+}
+
+
+
+
+/*
+ * css dynamic property assignment
+ */
+#topbar
+{
+height: var(--boxheight);
+}
+#contentsidebar1
+{
+display:var(--sidebar1);
+float:var(--sidebar1pos);
+width:var(--sidebar1width);
+min-height:var(--sidebar1minheight);
+}
+#contentmainbar
+{
+float:var(--maincontentpos);
+width:var(--maincontentwidth);
+min-height:var(--maincontentminheight);
+}
+#contentsidebar2
+{
+display:var(--sidebar2);
+float:var(--sidebar2pos);
+width:var(--sidebar2width);
+min-height:var(--sidebar2minheight);
+}
+
+#contentsidebar2:after
+{
+	content: '';
+    display: block;
+    clear: both;
+}
+
+#bottombar
+{
+height: var(--boxheight);
+}
+
