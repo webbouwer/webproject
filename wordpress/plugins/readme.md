@@ -48,12 +48,12 @@ Some plugins in this list are only named, not linked, for a specific reasons; Th
 * [Video](#video): Video display tools and function extensions
 * [Widget](#widget): Widget display and function extensions
 
-
 # Plugin list
 
 ## <a name="admin"></a>Admin
 * https://wordpress.org/plugins/codepress-admin-columns/
 * https://wordpress.org/plugins/profile-builder/
+* https://wordpress.org/plugins/wp-downgrade/
 
 ## <a name="archive"></a>Archive
 * https://wordpress.org/plugins/smart-archives-reloaded/
