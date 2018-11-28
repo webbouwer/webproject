@@ -1,4 +1,7 @@
 # webproject
+
+This project has moved to https://github.com/webbouwer/boilerplates/tree/master/programming/technology/web
+
 A collection of most used codes, plugins and software to build the web
 
 ## Introduction
